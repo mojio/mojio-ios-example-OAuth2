@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "MojioClient.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
 
 @end
 
@@ -17,6 +19,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+
+    //update button base on user login status
+    [self updateLoginButton];
+}
+
+- (void)updateLoginButton
+{
+    NSString *loggedInStatusText = [[MojioClient client] isUserLoggedIn]? @"Logout" : @"Login";
+    [self.loginButton setTitle:loggedInStatusText forState:UIControlStateNormal];
+}
+
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if([identifier isEqualToString:@"showLoginScreen"] && [[MojioClient client] isUserLoggedIn])
+    {
+        __weak ViewController *weakself = self;
+        [[MojioClient client] logoutWithCompletionBlock:^{
+            //logged out successfully
+            [weakself updateLoginButton];
+        }];
+        return NO;
+    }
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {

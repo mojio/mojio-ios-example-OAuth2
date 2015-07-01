@@ -14,6 +14,93 @@
 		B2D796091B434D25008BF430 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D796081B434D25008BF430 /* Images.xcassets */; };
 		B2D7960C1B434D25008BF430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D7960A1B434D25008BF430 /* LaunchScreen.xib */; };
 		B2D796181B434D25008BF430 /* MojioiOSExampleOAuth2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796171B434D25008BF430 /* MojioiOSExampleOAuth2Tests.m */; };
+		B2D796DA1B434E24008BF430 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796241B434E23008BF430 /* Accelerometer.m */; };
+		B2D796DB1B434E24008BF430 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796261B434E23008BF430 /* Address.m */; };
+		B2D796DC1B434E24008BF430 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796281B434E23008BF430 /* App.m */; };
+		B2D796DD1B434E24008BF430 /* AuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7962A1B434E23008BF430 /* AuthenticationProvider.m */; };
+		B2D796DE1B434E24008BF430 /* CarState.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7962C1B434E23008BF430 /* CarState.m */; };
+		B2D796DF1B434E24008BF430 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7962E1B434E23008BF430 /* Developer.m */; };
+		B2D796E01B434E24008BF430 /* DiagnosticCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796301B434E23008BF430 /* DiagnosticCodes.m */; };
+		B2D796E11B434E24008BF430 /* DTC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796321B434E23008BF430 /* DTC.m */; };
+		B2D796E21B434E24008BF430 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796341B434E23008BF430 /* Engine.m */; };
+		B2D796E31B434E24008BF430 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796361B434E23008BF430 /* Entity.m */; };
+		B2D796E41B434E24008BF430 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796381B434E23008BF430 /* Event.m */; };
+		B2D796E51B434E24008BF430 /* EventBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7963A1B434E23008BF430 /* EventBroadcast.m */; };
+		B2D796E61B434E24008BF430 /* ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7963C1B434E23008BF430 /* ImageSize.m */; };
+		B2D796E71B434E24008BF430 /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7963E1B434E23008BF430 /* Invoice.m */; };
+		B2D796E81B434E24008BF430 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796401B434E23008BF430 /* Location.m */; };
+		B2D796E91B434E24008BF430 /* Mojio.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796421B434E23008BF430 /* Mojio.m */; };
+		B2D796EA1B434E24008BF430 /* MojioResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796441B434E23008BF430 /* MojioResponse.m */; };
+		B2D796EB1B434E24008BF430 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796461B434E23008BF430 /* Product.m */; };
+		B2D796EC1B434E24008BF430 /* Recall.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796481B434E23008BF430 /* Recall.m */; };
+		B2D796ED1B434E24008BF430 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7964A1B434E23008BF430 /* Register.m */; };
+		B2D796EE1B434E24008BF430 /* ServiceBulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7964C1B434E23008BF430 /* ServiceBulletin.m */; };
+		B2D796EF1B434E24008BF430 /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7964E1B434E23008BF430 /* Storage.m */; };
+		B2D796F01B434E24008BF430 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796501B434E23008BF430 /* Token.m */; };
+		B2D796F11B434E24008BF430 /* Transmission.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796521B434E23008BF430 /* Transmission.m */; };
+		B2D796F21B434E24008BF430 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796541B434E23008BF430 /* Trip.m */; };
+		B2D796F31B434E24008BF430 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796561B434E23008BF430 /* User.m */; };
+		B2D796F41B434E24008BF430 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796581B434E23008BF430 /* Vehicle.m */; };
+		B2D796F51B434E24008BF430 /* VehicleDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7965A1B434E23008BF430 /* VehicleDetails.m */; };
+		B2D796F61B434E24008BF430 /* Warranty.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7965C1B434E23008BF430 /* Warranty.m */; };
+		B2D796F71B434E24008BF430 /* MojioClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7965E1B434E23008BF430 /* MojioClient.m */; };
+		B2D796F81B434E24008BF430 /* AccelerationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796621B434E23008BF430 /* AccelerationObserver.m */; };
+		B2D796F91B434E24008BF430 /* AccelerometerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796641B434E23008BF430 /* AccelerometerObserver.m */; };
+		B2D796FA1B434E24008BF430 /* AltitudeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796661B434E23008BF430 /* AltitudeObserver.m */; };
+		B2D796FB1B434E24008BF430 /* BatteryVoltageObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796681B434E23008BF430 /* BatteryVoltageObserver.m */; };
+		B2D796FC1B434E24008BF430 /* ConditionalObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7966A1B434E23008BF430 /* ConditionalObserver.m */; };
+		B2D796FD1B434E24008BF430 /* ConditionalObserverBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7966C1B434E23008BF430 /* ConditionalObserverBase.m */; };
+		B2D796FE1B434E24008BF430 /* DiagnosticCodeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7966E1B434E23008BF430 /* DiagnosticCodeObserver.m */; };
+		B2D796FF1B434E24008BF430 /* DistanceObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796701B434E23008BF430 /* DistanceObserver.m */; };
+		B2D797001B434E24008BF430 /* EventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796721B434E23008BF430 /* EventObserver.m */; };
+		B2D797011B434E24008BF430 /* FuelLevelObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796741B434E23008BF430 /* FuelLevelObserver.m */; };
+		B2D797021B434E24008BF430 /* GeoFenceObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796761B434E23008BF430 /* GeoFenceObserver.m */; };
+		B2D797031B434E24008BF430 /* HeadingObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796781B434E23008BF430 /* HeadingObserver.m */; };
+		B2D797041B434E24008BF430 /* ObservableAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7967A1B434E23008BF430 /* ObservableAttribute.m */; };
+		B2D797051B434E24008BF430 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7967C1B434E23008BF430 /* Observer.m */; };
+		B2D797061B434E24008BF430 /* ObserverToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7967E1B434E23008BF430 /* ObserverToken.m */; };
+		B2D797071B434E24008BF430 /* ObserverType.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796801B434E23008BF430 /* ObserverType.m */; };
+		B2D797081B434E24008BF430 /* OdometerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796821B434E23008BF430 /* OdometerObserver.m */; };
+		B2D797091B434E24008BF430 /* RPMObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796841B434E23008BF430 /* RPMObserver.m */; };
+		B2D7970A1B434E24008BF430 /* ScriptObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796861B434E23008BF430 /* ScriptObserver.m */; };
+		B2D7970B1B434E24008BF430 /* SmoothChunkingMojioObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796881B434E23008BF430 /* SmoothChunkingMojioObserver.m */; };
+		B2D7970C1B434E24008BF430 /* SmoothMojioObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7968A1B434E23008BF430 /* SmoothMojioObserver.m */; };
+		B2D7970D1B434E24008BF430 /* SmoothObserverBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7968C1B434E24008BF430 /* SmoothObserverBase.m */; };
+		B2D7970E1B434E24008BF430 /* SmoothTripObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7968E1B434E24008BF430 /* SmoothTripObserver.m */; };
+		B2D7970F1B434E24008BF430 /* SmoothVehicleObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796901B434E24008BF430 /* SmoothVehicleObserver.m */; };
+		B2D797101B434E24008BF430 /* SpeedObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796921B434E24008BF430 /* SpeedObserver.m */; };
+		B2D797111B434E24008BF430 /* SRHubConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796961B434E24008BF430 /* SRHubConnection.m */; };
+		B2D797121B434E24008BF430 /* SRHubInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796991B434E24008BF430 /* SRHubInvocation.m */; };
+		B2D797131B434E24008BF430 /* SRHubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7969B1B434E24008BF430 /* SRHubProxy.m */; };
+		B2D797141B434E24008BF430 /* SRHubProxyExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7969D1B434E24008BF430 /* SRHubProxyExtensions.m */; };
+		B2D797151B434E24008BF430 /* SRHubRegistrationData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796A01B434E24008BF430 /* SRHubRegistrationData.m */; };
+		B2D797161B434E24008BF430 /* SRHubResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796A21B434E24008BF430 /* SRHubResult.m */; };
+		B2D797171B434E24008BF430 /* SRHubservable.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796A51B434E24008BF430 /* SRHubservable.m */; };
+		B2D797181B434E24008BF430 /* SRSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796A71B434E24008BF430 /* SRSubscription.m */; };
+		B2D797191B434E24008BF430 /* NSObject+SRJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796AA1B434E24008BF430 /* NSObject+SRJSON.m */; };
+		B2D7971A1B434E24008BF430 /* SRExceptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796AD1B434E24008BF430 /* SRExceptionHelper.m */; };
+		B2D7971B1B434E24008BF430 /* SRVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796B01B434E24008BF430 /* SRVersion.m */; };
+		B2D7971C1B434E24008BF430 /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796B31B434E24008BF430 /* SRConnection.m */; };
+		B2D7971D1B434E24008BF430 /* SRConnectionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796B61B434E24008BF430 /* SRConnectionExtensions.m */; };
+		B2D7971E1B434E24008BF430 /* SRHeartbeatMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796BA1B434E24008BF430 /* SRHeartbeatMonitor.m */; };
+		B2D7971F1B434E24008BF430 /* SRKeepAliveData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796BC1B434E24008BF430 /* SRKeepAliveData.m */; };
+		B2D797201B434E24008BF430 /* SRNegotiationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796BF1B434E24008BF430 /* SRNegotiationResponse.m */; };
+		B2D797211B434E24008BF430 /* SRChunkBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796C31B434E24008BF430 /* SRChunkBuffer.m */; };
+		B2D797221B434E24008BF430 /* SREventSourceStreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796C51B434E24008BF430 /* SREventSourceStreamReader.m */; };
+		B2D797231B434E24008BF430 /* SRServerSentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796C71B434E24008BF430 /* SRServerSentEvent.m */; };
+		B2D797241B434E24008BF430 /* SRAutoTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796C91B434E24008BF430 /* SRAutoTransport.m */; };
+		B2D797251B434E24008BF430 /* SRHttpBasedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796CC1B434E24008BF430 /* SRHttpBasedTransport.m */; };
+		B2D797261B434E24008BF430 /* SRLongPollingTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796CE1B434E24008BF430 /* SRLongPollingTransport.m */; };
+		B2D797271B434E24008BF430 /* SRServerSentEventsTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796D01B434E24008BF430 /* SRServerSentEventsTransport.m */; };
+		B2D797281B434E24008BF430 /* SRWebSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796D21B434E24008BF430 /* SRWebSocketTransport.m */; };
+		B2D797291B434E24008BF430 /* SRWebSocketConnectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796D51B434E24008BF430 /* SRWebSocketConnectionInfo.m */; };
+		B2D7972A1B434E24008BF430 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D796D91B434E24008BF430 /* SRWebSocket.m */; };
+		B2D7972C1B434E38008BF430 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D7972B1B434E38008BF430 /* Foundation.framework */; };
+		B2D7972E1B434E3E008BF430 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D7972D1B434E3E008BF430 /* CFNetwork.framework */; };
+		B2D797301B434E46008BF430 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D7972F1B434E46008BF430 /* Security.framework */; };
+		B2D797321B434E4C008BF430 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D797311B434E4C008BF430 /* libicucore.dylib */; };
+		B2D797371B4353A0008BF430 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D797361B4353A0008BF430 /* SignInViewController.m */; };
+		D2C1C4CF0C87F54500BDB1DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C996AE6035B9D69C1BB102EF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +114,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61C0F31789BEA205637DABBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B2D795F81B434D25008BF430 /* MojioiOSExampleOAuth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojioiOSExampleOAuth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D795FC1B434D25008BF430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D795FD1B434D25008BF430 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +128,189 @@
 		B2D796111B434D25008BF430 /* MojioiOSExampleOAuth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojioiOSExampleOAuth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D796161B434D25008BF430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D796171B434D25008BF430 /* MojioiOSExampleOAuth2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MojioiOSExampleOAuth2Tests.m; sourceTree = "<group>"; };
+		B2D796231B434E23008BF430 /* Accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accelerometer.h; sourceTree = "<group>"; };
+		B2D796241B434E23008BF430 /* Accelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accelerometer.m; sourceTree = "<group>"; };
+		B2D796251B434E23008BF430 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		B2D796261B434E23008BF430 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		B2D796271B434E23008BF430 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		B2D796281B434E23008BF430 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		B2D796291B434E23008BF430 /* AuthenticationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationProvider.h; sourceTree = "<group>"; };
+		B2D7962A1B434E23008BF430 /* AuthenticationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationProvider.m; sourceTree = "<group>"; };
+		B2D7962B1B434E23008BF430 /* CarState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarState.h; sourceTree = "<group>"; };
+		B2D7962C1B434E23008BF430 /* CarState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarState.m; sourceTree = "<group>"; };
+		B2D7962D1B434E23008BF430 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		B2D7962E1B434E23008BF430 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
+		B2D7962F1B434E23008BF430 /* DiagnosticCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnosticCodes.h; sourceTree = "<group>"; };
+		B2D796301B434E23008BF430 /* DiagnosticCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagnosticCodes.m; sourceTree = "<group>"; };
+		B2D796311B434E23008BF430 /* DTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTC.h; sourceTree = "<group>"; };
+		B2D796321B434E23008BF430 /* DTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTC.m; sourceTree = "<group>"; };
+		B2D796331B434E23008BF430 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		B2D796341B434E23008BF430 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		B2D796351B434E23008BF430 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		B2D796361B434E23008BF430 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		B2D796371B434E23008BF430 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		B2D796381B434E23008BF430 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		B2D796391B434E23008BF430 /* EventBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBroadcast.h; sourceTree = "<group>"; };
+		B2D7963A1B434E23008BF430 /* EventBroadcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventBroadcast.m; sourceTree = "<group>"; };
+		B2D7963B1B434E23008BF430 /* ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSize.h; sourceTree = "<group>"; };
+		B2D7963C1B434E23008BF430 /* ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSize.m; sourceTree = "<group>"; };
+		B2D7963D1B434E23008BF430 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		B2D7963E1B434E23008BF430 /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoice.m; sourceTree = "<group>"; };
+		B2D7963F1B434E23008BF430 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B2D796401B434E23008BF430 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		B2D796411B434E23008BF430 /* Mojio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mojio.h; sourceTree = "<group>"; };
+		B2D796421B434E23008BF430 /* Mojio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mojio.m; sourceTree = "<group>"; };
+		B2D796431B434E23008BF430 /* MojioResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MojioResponse.h; sourceTree = "<group>"; };
+		B2D796441B434E23008BF430 /* MojioResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MojioResponse.m; sourceTree = "<group>"; };
+		B2D796451B434E23008BF430 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		B2D796461B434E23008BF430 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		B2D796471B434E23008BF430 /* Recall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recall.h; sourceTree = "<group>"; };
+		B2D796481B434E23008BF430 /* Recall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recall.m; sourceTree = "<group>"; };
+		B2D796491B434E23008BF430 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		B2D7964A1B434E23008BF430 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		B2D7964B1B434E23008BF430 /* ServiceBulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceBulletin.h; sourceTree = "<group>"; };
+		B2D7964C1B434E23008BF430 /* ServiceBulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBulletin.m; sourceTree = "<group>"; };
+		B2D7964D1B434E23008BF430 /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		B2D7964E1B434E23008BF430 /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		B2D7964F1B434E23008BF430 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		B2D796501B434E23008BF430 /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		B2D796511B434E23008BF430 /* Transmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transmission.h; sourceTree = "<group>"; };
+		B2D796521B434E23008BF430 /* Transmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transmission.m; sourceTree = "<group>"; };
+		B2D796531B434E23008BF430 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		B2D796541B434E23008BF430 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		B2D796551B434E23008BF430 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B2D796561B434E23008BF430 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B2D796571B434E23008BF430 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		B2D796581B434E23008BF430 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		B2D796591B434E23008BF430 /* VehicleDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleDetails.h; sourceTree = "<group>"; };
+		B2D7965A1B434E23008BF430 /* VehicleDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleDetails.m; sourceTree = "<group>"; };
+		B2D7965B1B434E23008BF430 /* Warranty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warranty.h; sourceTree = "<group>"; };
+		B2D7965C1B434E23008BF430 /* Warranty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warranty.m; sourceTree = "<group>"; };
+		B2D7965D1B434E23008BF430 /* MojioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MojioClient.h; sourceTree = "<group>"; };
+		B2D7965E1B434E23008BF430 /* MojioClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MojioClient.m; sourceTree = "<group>"; };
+		B2D7965F1B434E23008BF430 /* MojioSDKiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MojioSDKiOS.h; sourceTree = "<group>"; };
+		B2D796611B434E23008BF430 /* AccelerationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationObserver.h; sourceTree = "<group>"; };
+		B2D796621B434E23008BF430 /* AccelerationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationObserver.m; sourceTree = "<group>"; };
+		B2D796631B434E23008BF430 /* AccelerometerObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerObserver.h; sourceTree = "<group>"; };
+		B2D796641B434E23008BF430 /* AccelerometerObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerObserver.m; sourceTree = "<group>"; };
+		B2D796651B434E23008BF430 /* AltitudeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltitudeObserver.h; sourceTree = "<group>"; };
+		B2D796661B434E23008BF430 /* AltitudeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltitudeObserver.m; sourceTree = "<group>"; };
+		B2D796671B434E23008BF430 /* BatteryVoltageObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryVoltageObserver.h; sourceTree = "<group>"; };
+		B2D796681B434E23008BF430 /* BatteryVoltageObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryVoltageObserver.m; sourceTree = "<group>"; };
+		B2D796691B434E23008BF430 /* ConditionalObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionalObserver.h; sourceTree = "<group>"; };
+		B2D7966A1B434E23008BF430 /* ConditionalObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionalObserver.m; sourceTree = "<group>"; };
+		B2D7966B1B434E23008BF430 /* ConditionalObserverBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionalObserverBase.h; sourceTree = "<group>"; };
+		B2D7966C1B434E23008BF430 /* ConditionalObserverBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionalObserverBase.m; sourceTree = "<group>"; };
+		B2D7966D1B434E23008BF430 /* DiagnosticCodeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnosticCodeObserver.h; sourceTree = "<group>"; };
+		B2D7966E1B434E23008BF430 /* DiagnosticCodeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagnosticCodeObserver.m; sourceTree = "<group>"; };
+		B2D7966F1B434E23008BF430 /* DistanceObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceObserver.h; sourceTree = "<group>"; };
+		B2D796701B434E23008BF430 /* DistanceObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceObserver.m; sourceTree = "<group>"; };
+		B2D796711B434E23008BF430 /* EventObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventObserver.h; sourceTree = "<group>"; };
+		B2D796721B434E23008BF430 /* EventObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventObserver.m; sourceTree = "<group>"; };
+		B2D796731B434E23008BF430 /* FuelLevelObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelLevelObserver.h; sourceTree = "<group>"; };
+		B2D796741B434E23008BF430 /* FuelLevelObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelLevelObserver.m; sourceTree = "<group>"; };
+		B2D796751B434E23008BF430 /* GeoFenceObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFenceObserver.h; sourceTree = "<group>"; };
+		B2D796761B434E23008BF430 /* GeoFenceObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFenceObserver.m; sourceTree = "<group>"; };
+		B2D796771B434E23008BF430 /* HeadingObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadingObserver.h; sourceTree = "<group>"; };
+		B2D796781B434E23008BF430 /* HeadingObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadingObserver.m; sourceTree = "<group>"; };
+		B2D796791B434E23008BF430 /* ObservableAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservableAttribute.h; sourceTree = "<group>"; };
+		B2D7967A1B434E23008BF430 /* ObservableAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableAttribute.m; sourceTree = "<group>"; };
+		B2D7967B1B434E23008BF430 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		B2D7967C1B434E23008BF430 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		B2D7967D1B434E23008BF430 /* ObserverToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverToken.h; sourceTree = "<group>"; };
+		B2D7967E1B434E23008BF430 /* ObserverToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverToken.m; sourceTree = "<group>"; };
+		B2D7967F1B434E23008BF430 /* ObserverType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverType.h; sourceTree = "<group>"; };
+		B2D796801B434E23008BF430 /* ObserverType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverType.m; sourceTree = "<group>"; };
+		B2D796811B434E23008BF430 /* OdometerObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OdometerObserver.h; sourceTree = "<group>"; };
+		B2D796821B434E23008BF430 /* OdometerObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OdometerObserver.m; sourceTree = "<group>"; };
+		B2D796831B434E23008BF430 /* RPMObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPMObserver.h; sourceTree = "<group>"; };
+		B2D796841B434E23008BF430 /* RPMObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPMObserver.m; sourceTree = "<group>"; };
+		B2D796851B434E23008BF430 /* ScriptObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptObserver.h; sourceTree = "<group>"; };
+		B2D796861B434E23008BF430 /* ScriptObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptObserver.m; sourceTree = "<group>"; };
+		B2D796871B434E23008BF430 /* SmoothChunkingMojioObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothChunkingMojioObserver.h; sourceTree = "<group>"; };
+		B2D796881B434E23008BF430 /* SmoothChunkingMojioObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothChunkingMojioObserver.m; sourceTree = "<group>"; };
+		B2D796891B434E23008BF430 /* SmoothMojioObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothMojioObserver.h; sourceTree = "<group>"; };
+		B2D7968A1B434E23008BF430 /* SmoothMojioObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothMojioObserver.m; sourceTree = "<group>"; };
+		B2D7968B1B434E23008BF430 /* SmoothObserverBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothObserverBase.h; sourceTree = "<group>"; };
+		B2D7968C1B434E24008BF430 /* SmoothObserverBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothObserverBase.m; sourceTree = "<group>"; };
+		B2D7968D1B434E24008BF430 /* SmoothTripObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothTripObserver.h; sourceTree = "<group>"; };
+		B2D7968E1B434E24008BF430 /* SmoothTripObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothTripObserver.m; sourceTree = "<group>"; };
+		B2D7968F1B434E24008BF430 /* SmoothVehicleObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothVehicleObserver.h; sourceTree = "<group>"; };
+		B2D796901B434E24008BF430 /* SmoothVehicleObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothVehicleObserver.m; sourceTree = "<group>"; };
+		B2D796911B434E24008BF430 /* SpeedObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedObserver.h; sourceTree = "<group>"; };
+		B2D796921B434E24008BF430 /* SpeedObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedObserver.m; sourceTree = "<group>"; };
+		B2D796951B434E24008BF430 /* SRHubConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubConnection.h; sourceTree = "<group>"; };
+		B2D796961B434E24008BF430 /* SRHubConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubConnection.m; sourceTree = "<group>"; };
+		B2D796971B434E24008BF430 /* SRHubConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubConnectionInterface.h; sourceTree = "<group>"; };
+		B2D796981B434E24008BF430 /* SRHubInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubInvocation.h; sourceTree = "<group>"; };
+		B2D796991B434E24008BF430 /* SRHubInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubInvocation.m; sourceTree = "<group>"; };
+		B2D7969A1B434E24008BF430 /* SRHubProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubProxy.h; sourceTree = "<group>"; };
+		B2D7969B1B434E24008BF430 /* SRHubProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubProxy.m; sourceTree = "<group>"; };
+		B2D7969C1B434E24008BF430 /* SRHubProxyExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubProxyExtensions.h; sourceTree = "<group>"; };
+		B2D7969D1B434E24008BF430 /* SRHubProxyExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubProxyExtensions.m; sourceTree = "<group>"; };
+		B2D7969E1B434E24008BF430 /* SRHubProxyInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubProxyInterface.h; sourceTree = "<group>"; };
+		B2D7969F1B434E24008BF430 /* SRHubRegistrationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubRegistrationData.h; sourceTree = "<group>"; };
+		B2D796A01B434E24008BF430 /* SRHubRegistrationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubRegistrationData.m; sourceTree = "<group>"; };
+		B2D796A11B434E24008BF430 /* SRHubResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubResult.h; sourceTree = "<group>"; };
+		B2D796A21B434E24008BF430 /* SRHubResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubResult.m; sourceTree = "<group>"; };
+		B2D796A31B434E24008BF430 /* SRHubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubs.h; sourceTree = "<group>"; };
+		B2D796A41B434E24008BF430 /* SRHubservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHubservable.h; sourceTree = "<group>"; };
+		B2D796A51B434E24008BF430 /* SRHubservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHubservable.m; sourceTree = "<group>"; };
+		B2D796A61B434E24008BF430 /* SRSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSubscription.h; sourceTree = "<group>"; };
+		B2D796A71B434E24008BF430 /* SRSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSubscription.m; sourceTree = "<group>"; };
+		B2D796A91B434E24008BF430 /* NSObject+SRJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SRJSON.h"; sourceTree = "<group>"; };
+		B2D796AA1B434E24008BF430 /* NSObject+SRJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SRJSON.m"; sourceTree = "<group>"; };
+		B2D796AB1B434E24008BF430 /* SRDeserializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDeserializable.h; sourceTree = "<group>"; };
+		B2D796AC1B434E24008BF430 /* SRExceptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRExceptionHelper.h; sourceTree = "<group>"; };
+		B2D796AD1B434E24008BF430 /* SRExceptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRExceptionHelper.m; sourceTree = "<group>"; };
+		B2D796AE1B434E24008BF430 /* SRSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSerializable.h; sourceTree = "<group>"; };
+		B2D796AF1B434E24008BF430 /* SRVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRVersion.h; sourceTree = "<group>"; };
+		B2D796B01B434E24008BF430 /* SRVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRVersion.m; sourceTree = "<group>"; };
+		B2D796B11B434E24008BF430 /* SignalR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalR.h; sourceTree = "<group>"; };
+		B2D796B21B434E24008BF430 /* SRConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnection.h; sourceTree = "<group>"; };
+		B2D796B31B434E24008BF430 /* SRConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnection.m; sourceTree = "<group>"; };
+		B2D796B41B434E24008BF430 /* SRConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnectionDelegate.h; sourceTree = "<group>"; };
+		B2D796B51B434E24008BF430 /* SRConnectionExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnectionExtensions.h; sourceTree = "<group>"; };
+		B2D796B61B434E24008BF430 /* SRConnectionExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRConnectionExtensions.m; sourceTree = "<group>"; };
+		B2D796B71B434E24008BF430 /* SRConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnectionInterface.h; sourceTree = "<group>"; };
+		B2D796B81B434E24008BF430 /* SRConnectionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRConnectionState.h; sourceTree = "<group>"; };
+		B2D796B91B434E24008BF430 /* SRHeartbeatMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHeartbeatMonitor.h; sourceTree = "<group>"; };
+		B2D796BA1B434E24008BF430 /* SRHeartbeatMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHeartbeatMonitor.m; sourceTree = "<group>"; };
+		B2D796BB1B434E24008BF430 /* SRKeepAliveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRKeepAliveData.h; sourceTree = "<group>"; };
+		B2D796BC1B434E24008BF430 /* SRKeepAliveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRKeepAliveData.m; sourceTree = "<group>"; };
+		B2D796BD1B434E24008BF430 /* SRLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLog.h; sourceTree = "<group>"; };
+		B2D796BE1B434E24008BF430 /* SRNegotiationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRNegotiationResponse.h; sourceTree = "<group>"; };
+		B2D796BF1B434E24008BF430 /* SRNegotiationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRNegotiationResponse.m; sourceTree = "<group>"; };
+		B2D796C21B434E24008BF430 /* SRChunkBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRChunkBuffer.h; sourceTree = "<group>"; };
+		B2D796C31B434E24008BF430 /* SRChunkBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRChunkBuffer.m; sourceTree = "<group>"; };
+		B2D796C41B434E24008BF430 /* SREventSourceStreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SREventSourceStreamReader.h; sourceTree = "<group>"; };
+		B2D796C51B434E24008BF430 /* SREventSourceStreamReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SREventSourceStreamReader.m; sourceTree = "<group>"; };
+		B2D796C61B434E24008BF430 /* SRServerSentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRServerSentEvent.h; sourceTree = "<group>"; };
+		B2D796C71B434E24008BF430 /* SRServerSentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRServerSentEvent.m; sourceTree = "<group>"; };
+		B2D796C81B434E24008BF430 /* SRAutoTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAutoTransport.h; sourceTree = "<group>"; };
+		B2D796C91B434E24008BF430 /* SRAutoTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAutoTransport.m; sourceTree = "<group>"; };
+		B2D796CA1B434E24008BF430 /* SRClientTransportInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRClientTransportInterface.h; sourceTree = "<group>"; };
+		B2D796CB1B434E24008BF430 /* SRHttpBasedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHttpBasedTransport.h; sourceTree = "<group>"; };
+		B2D796CC1B434E24008BF430 /* SRHttpBasedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHttpBasedTransport.m; sourceTree = "<group>"; };
+		B2D796CD1B434E24008BF430 /* SRLongPollingTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLongPollingTransport.h; sourceTree = "<group>"; };
+		B2D796CE1B434E24008BF430 /* SRLongPollingTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLongPollingTransport.m; sourceTree = "<group>"; };
+		B2D796CF1B434E24008BF430 /* SRServerSentEventsTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRServerSentEventsTransport.h; sourceTree = "<group>"; };
+		B2D796D01B434E24008BF430 /* SRServerSentEventsTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRServerSentEventsTransport.m; sourceTree = "<group>"; };
+		B2D796D11B434E24008BF430 /* SRWebSocketTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocketTransport.h; sourceTree = "<group>"; };
+		B2D796D21B434E24008BF430 /* SRWebSocketTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocketTransport.m; sourceTree = "<group>"; };
+		B2D796D41B434E24008BF430 /* SRWebSocketConnectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocketConnectionInfo.h; sourceTree = "<group>"; };
+		B2D796D51B434E24008BF430 /* SRWebSocketConnectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocketConnectionInfo.m; sourceTree = "<group>"; };
+		B2D796D71B434E24008BF430 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		B2D796D81B434E24008BF430 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		B2D796D91B434E24008BF430 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		B2D7972B1B434E38008BF430 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2D7972D1B434E3E008BF430 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B2D7972F1B434E46008BF430 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B2D797311B434E4C008BF430 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B2D797351B4353A0008BF430 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		B2D797361B4353A0008BF430 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		C996AE6035B9D69C1BB102EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0757DEBFF3E38B5D5C8D06 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +318,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D797321B434E4C008BF430 /* libicucore.dylib in Frameworks */,
+				B2D797301B434E46008BF430 /* Security.framework in Frameworks */,
+				B2D7972E1B434E3E008BF430 /* CFNetwork.framework in Frameworks */,
+				B2D7972C1B434E38008BF430 /* Foundation.framework in Frameworks */,
+				D2C1C4CF0C87F54500BDB1DD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +336,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CD16C12C7AF1D7DAF6F4A80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0757DEBFF3E38B5D5C8D06 /* Pods.debug.xcconfig */,
+				61C0F31789BEA205637DABBC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A04EF35FBA7F3405C687264A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D797311B434E4C008BF430 /* libicucore.dylib */,
+				B2D7972F1B434E46008BF430 /* Security.framework */,
+				B2D7972D1B434E3E008BF430 /* CFNetwork.framework */,
+				B2D7972B1B434E38008BF430 /* Foundation.framework */,
+				C996AE6035B9D69C1BB102EF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2D795EF1B434D25008BF430 = {
 			isa = PBXGroup;
 			children = (
+				B2D796211B434E23008BF430 /* MojioSDKiOS */,
 				B2D795FA1B434D25008BF430 /* MojioiOSExampleOAuth2 */,
 				B2D796141B434D25008BF430 /* MojioiOSExampleOAuth2Tests */,
 				B2D795F91B434D25008BF430 /* Products */,
+				7CD16C12C7AF1D7DAF6F4A80 /* Pods */,
+				A04EF35FBA7F3405C687264A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +381,13 @@
 		B2D795FA1B434D25008BF430 /* MojioiOSExampleOAuth2 */ = {
 			isa = PBXGroup;
 			children = (
+				B2D797341B434FBA008BF430 /* Main */,
 				B2D795FF1B434D25008BF430 /* AppDelegate.h */,
 				B2D796001B434D25008BF430 /* AppDelegate.m */,
 				B2D796021B434D25008BF430 /* ViewController.h */,
 				B2D796031B434D25008BF430 /* ViewController.m */,
+				B2D797351B4353A0008BF430 /* SignInViewController.h */,
+				B2D797361B4353A0008BF430 /* SignInViewController.m */,
 				B2D796051B434D25008BF430 /* Main.storyboard */,
 				B2D796081B434D25008BF430 /* Images.xcassets */,
 				B2D7960A1B434D25008BF430 /* LaunchScreen.xib */,
@@ -119,6 +422,267 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B2D796211B434E23008BF430 /* MojioSDKiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796221B434E23008BF430 /* Models */,
+				B2D7965D1B434E23008BF430 /* MojioClient.h */,
+				B2D7965E1B434E23008BF430 /* MojioClient.m */,
+				B2D7965F1B434E23008BF430 /* MojioSDKiOS.h */,
+				B2D796601B434E23008BF430 /* Observers */,
+				B2D796931B434E24008BF430 /* SignalR.Client */,
+				B2D796D61B434E24008BF430 /* SocketRocket */,
+			);
+			path = MojioSDKiOS;
+			sourceTree = "<group>";
+		};
+		B2D796221B434E23008BF430 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796231B434E23008BF430 /* Accelerometer.h */,
+				B2D796241B434E23008BF430 /* Accelerometer.m */,
+				B2D796251B434E23008BF430 /* Address.h */,
+				B2D796261B434E23008BF430 /* Address.m */,
+				B2D796271B434E23008BF430 /* App.h */,
+				B2D796281B434E23008BF430 /* App.m */,
+				B2D796291B434E23008BF430 /* AuthenticationProvider.h */,
+				B2D7962A1B434E23008BF430 /* AuthenticationProvider.m */,
+				B2D7962B1B434E23008BF430 /* CarState.h */,
+				B2D7962C1B434E23008BF430 /* CarState.m */,
+				B2D7962D1B434E23008BF430 /* Developer.h */,
+				B2D7962E1B434E23008BF430 /* Developer.m */,
+				B2D7962F1B434E23008BF430 /* DiagnosticCodes.h */,
+				B2D796301B434E23008BF430 /* DiagnosticCodes.m */,
+				B2D796311B434E23008BF430 /* DTC.h */,
+				B2D796321B434E23008BF430 /* DTC.m */,
+				B2D796331B434E23008BF430 /* Engine.h */,
+				B2D796341B434E23008BF430 /* Engine.m */,
+				B2D796351B434E23008BF430 /* Entity.h */,
+				B2D796361B434E23008BF430 /* Entity.m */,
+				B2D796371B434E23008BF430 /* Event.h */,
+				B2D796381B434E23008BF430 /* Event.m */,
+				B2D796391B434E23008BF430 /* EventBroadcast.h */,
+				B2D7963A1B434E23008BF430 /* EventBroadcast.m */,
+				B2D7963B1B434E23008BF430 /* ImageSize.h */,
+				B2D7963C1B434E23008BF430 /* ImageSize.m */,
+				B2D7963D1B434E23008BF430 /* Invoice.h */,
+				B2D7963E1B434E23008BF430 /* Invoice.m */,
+				B2D7963F1B434E23008BF430 /* Location.h */,
+				B2D796401B434E23008BF430 /* Location.m */,
+				B2D796411B434E23008BF430 /* Mojio.h */,
+				B2D796421B434E23008BF430 /* Mojio.m */,
+				B2D796431B434E23008BF430 /* MojioResponse.h */,
+				B2D796441B434E23008BF430 /* MojioResponse.m */,
+				B2D796451B434E23008BF430 /* Product.h */,
+				B2D796461B434E23008BF430 /* Product.m */,
+				B2D796471B434E23008BF430 /* Recall.h */,
+				B2D796481B434E23008BF430 /* Recall.m */,
+				B2D796491B434E23008BF430 /* Register.h */,
+				B2D7964A1B434E23008BF430 /* Register.m */,
+				B2D7964B1B434E23008BF430 /* ServiceBulletin.h */,
+				B2D7964C1B434E23008BF430 /* ServiceBulletin.m */,
+				B2D7964D1B434E23008BF430 /* Storage.h */,
+				B2D7964E1B434E23008BF430 /* Storage.m */,
+				B2D7964F1B434E23008BF430 /* Token.h */,
+				B2D796501B434E23008BF430 /* Token.m */,
+				B2D796511B434E23008BF430 /* Transmission.h */,
+				B2D796521B434E23008BF430 /* Transmission.m */,
+				B2D796531B434E23008BF430 /* Trip.h */,
+				B2D796541B434E23008BF430 /* Trip.m */,
+				B2D796551B434E23008BF430 /* User.h */,
+				B2D796561B434E23008BF430 /* User.m */,
+				B2D796571B434E23008BF430 /* Vehicle.h */,
+				B2D796581B434E23008BF430 /* Vehicle.m */,
+				B2D796591B434E23008BF430 /* VehicleDetails.h */,
+				B2D7965A1B434E23008BF430 /* VehicleDetails.m */,
+				B2D7965B1B434E23008BF430 /* Warranty.h */,
+				B2D7965C1B434E23008BF430 /* Warranty.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2D796601B434E23008BF430 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796611B434E23008BF430 /* AccelerationObserver.h */,
+				B2D796621B434E23008BF430 /* AccelerationObserver.m */,
+				B2D796631B434E23008BF430 /* AccelerometerObserver.h */,
+				B2D796641B434E23008BF430 /* AccelerometerObserver.m */,
+				B2D796651B434E23008BF430 /* AltitudeObserver.h */,
+				B2D796661B434E23008BF430 /* AltitudeObserver.m */,
+				B2D796671B434E23008BF430 /* BatteryVoltageObserver.h */,
+				B2D796681B434E23008BF430 /* BatteryVoltageObserver.m */,
+				B2D796691B434E23008BF430 /* ConditionalObserver.h */,
+				B2D7966A1B434E23008BF430 /* ConditionalObserver.m */,
+				B2D7966B1B434E23008BF430 /* ConditionalObserverBase.h */,
+				B2D7966C1B434E23008BF430 /* ConditionalObserverBase.m */,
+				B2D7966D1B434E23008BF430 /* DiagnosticCodeObserver.h */,
+				B2D7966E1B434E23008BF430 /* DiagnosticCodeObserver.m */,
+				B2D7966F1B434E23008BF430 /* DistanceObserver.h */,
+				B2D796701B434E23008BF430 /* DistanceObserver.m */,
+				B2D796711B434E23008BF430 /* EventObserver.h */,
+				B2D796721B434E23008BF430 /* EventObserver.m */,
+				B2D796731B434E23008BF430 /* FuelLevelObserver.h */,
+				B2D796741B434E23008BF430 /* FuelLevelObserver.m */,
+				B2D796751B434E23008BF430 /* GeoFenceObserver.h */,
+				B2D796761B434E23008BF430 /* GeoFenceObserver.m */,
+				B2D796771B434E23008BF430 /* HeadingObserver.h */,
+				B2D796781B434E23008BF430 /* HeadingObserver.m */,
+				B2D796791B434E23008BF430 /* ObservableAttribute.h */,
+				B2D7967A1B434E23008BF430 /* ObservableAttribute.m */,
+				B2D7967B1B434E23008BF430 /* Observer.h */,
+				B2D7967C1B434E23008BF430 /* Observer.m */,
+				B2D7967D1B434E23008BF430 /* ObserverToken.h */,
+				B2D7967E1B434E23008BF430 /* ObserverToken.m */,
+				B2D7967F1B434E23008BF430 /* ObserverType.h */,
+				B2D796801B434E23008BF430 /* ObserverType.m */,
+				B2D796811B434E23008BF430 /* OdometerObserver.h */,
+				B2D796821B434E23008BF430 /* OdometerObserver.m */,
+				B2D796831B434E23008BF430 /* RPMObserver.h */,
+				B2D796841B434E23008BF430 /* RPMObserver.m */,
+				B2D796851B434E23008BF430 /* ScriptObserver.h */,
+				B2D796861B434E23008BF430 /* ScriptObserver.m */,
+				B2D796871B434E23008BF430 /* SmoothChunkingMojioObserver.h */,
+				B2D796881B434E23008BF430 /* SmoothChunkingMojioObserver.m */,
+				B2D796891B434E23008BF430 /* SmoothMojioObserver.h */,
+				B2D7968A1B434E23008BF430 /* SmoothMojioObserver.m */,
+				B2D7968B1B434E23008BF430 /* SmoothObserverBase.h */,
+				B2D7968C1B434E24008BF430 /* SmoothObserverBase.m */,
+				B2D7968D1B434E24008BF430 /* SmoothTripObserver.h */,
+				B2D7968E1B434E24008BF430 /* SmoothTripObserver.m */,
+				B2D7968F1B434E24008BF430 /* SmoothVehicleObserver.h */,
+				B2D796901B434E24008BF430 /* SmoothVehicleObserver.m */,
+				B2D796911B434E24008BF430 /* SpeedObserver.h */,
+				B2D796921B434E24008BF430 /* SpeedObserver.m */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		B2D796931B434E24008BF430 /* SignalR.Client */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796941B434E24008BF430 /* Hubs */,
+				B2D796A81B434E24008BF430 /* Infrastructure */,
+				B2D796B11B434E24008BF430 /* SignalR.h */,
+				B2D796B21B434E24008BF430 /* SRConnection.h */,
+				B2D796B31B434E24008BF430 /* SRConnection.m */,
+				B2D796B41B434E24008BF430 /* SRConnectionDelegate.h */,
+				B2D796B51B434E24008BF430 /* SRConnectionExtensions.h */,
+				B2D796B61B434E24008BF430 /* SRConnectionExtensions.m */,
+				B2D796B71B434E24008BF430 /* SRConnectionInterface.h */,
+				B2D796B81B434E24008BF430 /* SRConnectionState.h */,
+				B2D796B91B434E24008BF430 /* SRHeartbeatMonitor.h */,
+				B2D796BA1B434E24008BF430 /* SRHeartbeatMonitor.m */,
+				B2D796BB1B434E24008BF430 /* SRKeepAliveData.h */,
+				B2D796BC1B434E24008BF430 /* SRKeepAliveData.m */,
+				B2D796BD1B434E24008BF430 /* SRLog.h */,
+				B2D796BE1B434E24008BF430 /* SRNegotiationResponse.h */,
+				B2D796BF1B434E24008BF430 /* SRNegotiationResponse.m */,
+				B2D796C01B434E24008BF430 /* Transports */,
+			);
+			path = SignalR.Client;
+			sourceTree = "<group>";
+		};
+		B2D796941B434E24008BF430 /* Hubs */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796951B434E24008BF430 /* SRHubConnection.h */,
+				B2D796961B434E24008BF430 /* SRHubConnection.m */,
+				B2D796971B434E24008BF430 /* SRHubConnectionInterface.h */,
+				B2D796981B434E24008BF430 /* SRHubInvocation.h */,
+				B2D796991B434E24008BF430 /* SRHubInvocation.m */,
+				B2D7969A1B434E24008BF430 /* SRHubProxy.h */,
+				B2D7969B1B434E24008BF430 /* SRHubProxy.m */,
+				B2D7969C1B434E24008BF430 /* SRHubProxyExtensions.h */,
+				B2D7969D1B434E24008BF430 /* SRHubProxyExtensions.m */,
+				B2D7969E1B434E24008BF430 /* SRHubProxyInterface.h */,
+				B2D7969F1B434E24008BF430 /* SRHubRegistrationData.h */,
+				B2D796A01B434E24008BF430 /* SRHubRegistrationData.m */,
+				B2D796A11B434E24008BF430 /* SRHubResult.h */,
+				B2D796A21B434E24008BF430 /* SRHubResult.m */,
+				B2D796A31B434E24008BF430 /* SRHubs.h */,
+				B2D796A41B434E24008BF430 /* SRHubservable.h */,
+				B2D796A51B434E24008BF430 /* SRHubservable.m */,
+				B2D796A61B434E24008BF430 /* SRSubscription.h */,
+				B2D796A71B434E24008BF430 /* SRSubscription.m */,
+			);
+			path = Hubs;
+			sourceTree = "<group>";
+		};
+		B2D796A81B434E24008BF430 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796A91B434E24008BF430 /* NSObject+SRJSON.h */,
+				B2D796AA1B434E24008BF430 /* NSObject+SRJSON.m */,
+				B2D796AB1B434E24008BF430 /* SRDeserializable.h */,
+				B2D796AC1B434E24008BF430 /* SRExceptionHelper.h */,
+				B2D796AD1B434E24008BF430 /* SRExceptionHelper.m */,
+				B2D796AE1B434E24008BF430 /* SRSerializable.h */,
+				B2D796AF1B434E24008BF430 /* SRVersion.h */,
+				B2D796B01B434E24008BF430 /* SRVersion.m */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		B2D796C01B434E24008BF430 /* Transports */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796C11B434E24008BF430 /* ServerSentEvents */,
+				B2D796C81B434E24008BF430 /* SRAutoTransport.h */,
+				B2D796C91B434E24008BF430 /* SRAutoTransport.m */,
+				B2D796CA1B434E24008BF430 /* SRClientTransportInterface.h */,
+				B2D796CB1B434E24008BF430 /* SRHttpBasedTransport.h */,
+				B2D796CC1B434E24008BF430 /* SRHttpBasedTransport.m */,
+				B2D796CD1B434E24008BF430 /* SRLongPollingTransport.h */,
+				B2D796CE1B434E24008BF430 /* SRLongPollingTransport.m */,
+				B2D796CF1B434E24008BF430 /* SRServerSentEventsTransport.h */,
+				B2D796D01B434E24008BF430 /* SRServerSentEventsTransport.m */,
+				B2D796D11B434E24008BF430 /* SRWebSocketTransport.h */,
+				B2D796D21B434E24008BF430 /* SRWebSocketTransport.m */,
+				B2D796D31B434E24008BF430 /* WebSockets */,
+			);
+			path = Transports;
+			sourceTree = "<group>";
+		};
+		B2D796C11B434E24008BF430 /* ServerSentEvents */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796C21B434E24008BF430 /* SRChunkBuffer.h */,
+				B2D796C31B434E24008BF430 /* SRChunkBuffer.m */,
+				B2D796C41B434E24008BF430 /* SREventSourceStreamReader.h */,
+				B2D796C51B434E24008BF430 /* SREventSourceStreamReader.m */,
+				B2D796C61B434E24008BF430 /* SRServerSentEvent.h */,
+				B2D796C71B434E24008BF430 /* SRServerSentEvent.m */,
+			);
+			path = ServerSentEvents;
+			sourceTree = "<group>";
+		};
+		B2D796D31B434E24008BF430 /* WebSockets */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796D41B434E24008BF430 /* SRWebSocketConnectionInfo.h */,
+				B2D796D51B434E24008BF430 /* SRWebSocketConnectionInfo.m */,
+			);
+			path = WebSockets;
+			sourceTree = "<group>";
+		};
+		B2D796D61B434E24008BF430 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				B2D796D71B434E24008BF430 /* SocketRocket-Prefix.pch */,
+				B2D796D81B434E24008BF430 /* SRWebSocket.h */,
+				B2D796D91B434E24008BF430 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		B2D797341B434FBA008BF430 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +690,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D7961B1B434D25008BF430 /* Build configuration list for PBXNativeTarget "MojioiOSExampleOAuth2" */;
 			buildPhases = (
+				81BD50F602BAF98E5D8BB586 /* Check Pods Manifest.lock */,
 				B2D795F41B434D25008BF430 /* Sources */,
 				B2D795F51B434D25008BF430 /* Frameworks */,
 				B2D795F61B434D25008BF430 /* Resources */,
+				CC33AE959244D092B12BE63A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +780,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81BD50F602BAF98E5D8BB586 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC33AE959244D092B12BE63A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2D795F41B434D25008BF430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D7970A1B434E24008BF430 /* ScriptObserver.m in Sources */,
+				B2D796EB1B434E24008BF430 /* Product.m in Sources */,
+				B2D796E11B434E24008BF430 /* DTC.m in Sources */,
+				B2D797081B434E24008BF430 /* OdometerObserver.m in Sources */,
+				B2D7970C1B434E24008BF430 /* SmoothMojioObserver.m in Sources */,
+				B2D796DF1B434E24008BF430 /* Developer.m in Sources */,
 				B2D796041B434D25008BF430 /* ViewController.m in Sources */,
+				B2D796F11B434E24008BF430 /* Transmission.m in Sources */,
+				B2D797021B434E24008BF430 /* GeoFenceObserver.m in Sources */,
+				B2D796E31B434E24008BF430 /* Entity.m in Sources */,
+				B2D7971C1B434E24008BF430 /* SRConnection.m in Sources */,
+				B2D796E81B434E24008BF430 /* Location.m in Sources */,
+				B2D7971E1B434E24008BF430 /* SRHeartbeatMonitor.m in Sources */,
+				B2D797181B434E24008BF430 /* SRSubscription.m in Sources */,
+				B2D796EC1B434E24008BF430 /* Recall.m in Sources */,
+				B2D796F51B434E24008BF430 /* VehicleDetails.m in Sources */,
+				B2D796EF1B434E24008BF430 /* Storage.m in Sources */,
+				B2D797041B434E24008BF430 /* ObservableAttribute.m in Sources */,
+				B2D796F91B434E24008BF430 /* AccelerometerObserver.m in Sources */,
+				B2D796E61B434E24008BF430 /* ImageSize.m in Sources */,
+				B2D797371B4353A0008BF430 /* SignInViewController.m in Sources */,
+				B2D7970D1B434E24008BF430 /* SmoothObserverBase.m in Sources */,
+				B2D796F81B434E24008BF430 /* AccelerationObserver.m in Sources */,
+				B2D797111B434E24008BF430 /* SRHubConnection.m in Sources */,
+				B2D797251B434E24008BF430 /* SRHttpBasedTransport.m in Sources */,
+				B2D797051B434E24008BF430 /* Observer.m in Sources */,
+				B2D797071B434E24008BF430 /* ObserverType.m in Sources */,
+				B2D797151B434E24008BF430 /* SRHubRegistrationData.m in Sources */,
+				B2D796DA1B434E24008BF430 /* Accelerometer.m in Sources */,
+				B2D797131B434E24008BF430 /* SRHubProxy.m in Sources */,
+				B2D796ED1B434E24008BF430 /* Register.m in Sources */,
+				B2D797211B434E24008BF430 /* SRChunkBuffer.m in Sources */,
+				B2D797101B434E24008BF430 /* SpeedObserver.m in Sources */,
+				B2D797171B434E24008BF430 /* SRHubservable.m in Sources */,
+				B2D796FF1B434E24008BF430 /* DistanceObserver.m in Sources */,
+				B2D797271B434E24008BF430 /* SRServerSentEventsTransport.m in Sources */,
+				B2D7970E1B434E24008BF430 /* SmoothTripObserver.m in Sources */,
+				B2D7970B1B434E24008BF430 /* SmoothChunkingMojioObserver.m in Sources */,
+				B2D797061B434E24008BF430 /* ObserverToken.m in Sources */,
+				B2D796E71B434E24008BF430 /* Invoice.m in Sources */,
+				B2D7971A1B434E24008BF430 /* SRExceptionHelper.m in Sources */,
 				B2D796011B434D25008BF430 /* AppDelegate.m in Sources */,
+				B2D796FD1B434E24008BF430 /* ConditionalObserverBase.m in Sources */,
+				B2D796F41B434E24008BF430 /* Vehicle.m in Sources */,
+				B2D797261B434E24008BF430 /* SRLongPollingTransport.m in Sources */,
+				B2D797001B434E24008BF430 /* EventObserver.m in Sources */,
+				B2D797201B434E24008BF430 /* SRNegotiationResponse.m in Sources */,
+				B2D797011B434E24008BF430 /* FuelLevelObserver.m in Sources */,
+				B2D796EE1B434E24008BF430 /* ServiceBulletin.m in Sources */,
+				B2D797221B434E24008BF430 /* SREventSourceStreamReader.m in Sources */,
+				B2D797141B434E24008BF430 /* SRHubProxyExtensions.m in Sources */,
+				B2D796E41B434E24008BF430 /* Event.m in Sources */,
+				B2D796F21B434E24008BF430 /* Trip.m in Sources */,
+				B2D7970F1B434E24008BF430 /* SmoothVehicleObserver.m in Sources */,
+				B2D797191B434E24008BF430 /* NSObject+SRJSON.m in Sources */,
+				B2D796E21B434E24008BF430 /* Engine.m in Sources */,
+				B2D797161B434E24008BF430 /* SRHubResult.m in Sources */,
+				B2D7971D1B434E24008BF430 /* SRConnectionExtensions.m in Sources */,
+				B2D796FC1B434E24008BF430 /* ConditionalObserver.m in Sources */,
+				B2D797281B434E24008BF430 /* SRWebSocketTransport.m in Sources */,
+				B2D796DC1B434E24008BF430 /* App.m in Sources */,
+				B2D7972A1B434E24008BF430 /* SRWebSocket.m in Sources */,
+				B2D796F01B434E24008BF430 /* Token.m in Sources */,
+				B2D796E01B434E24008BF430 /* DiagnosticCodes.m in Sources */,
+				B2D796FB1B434E24008BF430 /* BatteryVoltageObserver.m in Sources */,
+				B2D797241B434E24008BF430 /* SRAutoTransport.m in Sources */,
+				B2D797291B434E24008BF430 /* SRWebSocketConnectionInfo.m in Sources */,
+				B2D797231B434E24008BF430 /* SRServerSentEvent.m in Sources */,
+				B2D796FA1B434E24008BF430 /* AltitudeObserver.m in Sources */,
+				B2D796DE1B434E24008BF430 /* CarState.m in Sources */,
+				B2D797031B434E24008BF430 /* HeadingObserver.m in Sources */,
+				B2D796DB1B434E24008BF430 /* Address.m in Sources */,
+				B2D7971B1B434E24008BF430 /* SRVersion.m in Sources */,
+				B2D796E91B434E24008BF430 /* Mojio.m in Sources */,
+				B2D796F31B434E24008BF430 /* User.m in Sources */,
+				B2D796E51B434E24008BF430 /* EventBroadcast.m in Sources */,
+				B2D7971F1B434E24008BF430 /* SRKeepAliveData.m in Sources */,
 				B2D795FE1B434D25008BF430 /* main.m in Sources */,
+				B2D796FE1B434E24008BF430 /* DiagnosticCodeObserver.m in Sources */,
+				B2D796F61B434E24008BF430 /* Warranty.m in Sources */,
+				B2D797091B434E24008BF430 /* RPMObserver.m in Sources */,
+				B2D796F71B434E24008BF430 /* MojioClient.m in Sources */,
+				B2D796DD1B434E24008BF430 /* AuthenticationProvider.m in Sources */,
+				B2D797121B434E24008BF430 /* SRHubInvocation.m in Sources */,
+				B2D796EA1B434E24008BF430 /* MojioResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +1028,7 @@
 		};
 		B2D7961C1B434D25008BF430 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0757DEBFF3E38B5D5C8D06 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MojioiOSExampleOAuth2/Info.plist;
@@ -357,6 +1039,7 @@
 		};
 		B2D7961D1B434D25008BF430 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C0F31789BEA205637DABBC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MojioiOSExampleOAuth2/Info.plist;
@@ -418,6 +1101,7 @@
 				B2D7961D1B434D25008BF430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D7961E1B434D25008BF430 /* Build configuration list for PBXNativeTarget "MojioiOSExampleOAuth2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +1110,7 @@
 				B2D796201B434D25008BF430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

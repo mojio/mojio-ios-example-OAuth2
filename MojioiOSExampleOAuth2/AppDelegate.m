@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MojioClient.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // initialize MojioClient with app id and secretkey
+    MojioClient *mojioClient = [MojioClient client];
+    [mojioClient initWithAppId:@"cd804855-6d5c-4c4c-a308-d71e0a32417b" andSecretKey:@"9ae98c27-b4c1-4add-9de0-b78bc6ff1d48" andRedirectUrlScheme:@"mojioplayground://"]; //sandbox key
+    
     return YES;
 }
 

@@ -7,8 +7,11 @@
 //
 
 #import "SignInViewController.h"
+#import "MojioClient.h"
 
 @interface SignInViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *txtUserName;
+@property (weak, nonatomic) IBOutlet UITextField *txtPassword;
 
 @end
 
@@ -24,7 +27,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+- (IBAction)onLogin:(id)sender {
+    
+    __weak SignInViewController *weakself = self;
+    [[MojioClient client] loginUserWithUsername:self.txtUserName.text withPassword:self.txtPassword.text withCompletionBlock:^(id response) {
+        //successfully logged in, dismiss and return to home screen
+        [weakself dismissViewControllerAnimated:YES completion:nil];
+    } failure:^{
+        //
+    }];
+}
+
+- (IBAction)onCancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -32,6 +49,5 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
 
 @end
