@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "Yes"
             filePath = "MojioiOSExampleOAuth2/SignInViewController.m"
-            timestampString = "457397853.821893"
+            timestampString = "457552336.554437"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "-onLogin:"
             landmarkType = "5">
             <Actions>
@@ -65,13 +65,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+            filePath = "MojioiOSExampleOAuth2/SignInViewController.m"
+            timestampString = "457552336.554437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
             filePath = "MojioiOSExampleOAuth2/ViewController.m"
             timestampString = "457399721.740242"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-shouldPerformSegueWithIdentifier:sender:"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-viewWillAppear:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -82,12 +98,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MojioiOSExampleOAuth2/SignInViewController.m"
-            timestampString = "457399414.916737"
+            timestampString = "457552336.554437"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-prepareForSegue:sender:"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-onLogin:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SignInViewController onLogin:]"
+                  moduleName = "MojioiOSExampleOAuth2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevema/Documents/Projects/MojioiOSExampleOAuth2/MojioiOSExampleOAuth2/SignInViewController.m"
+                  timestampString = "457552185.18777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[SignInViewController onLogin:]_block_invoke"
+                  moduleName = "MojioiOSExampleOAuth2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevema/Documents/Projects/MojioiOSExampleOAuth2/MojioiOSExampleOAuth2/SignInViewController.m"
+                  timestampString = "457552185.188021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MojioiOSExampleOAuth2/SignInViewController.m"
+            timestampString = "457552336.554437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-onLogin:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -98,12 +162,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MojioiOSExampleOAuth2/ViewController.m"
-            timestampString = "457399721.740242"
+            timestampString = "457551693.628108"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-viewWillAppear:"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-shouldPerformSegueWithIdentifier:sender:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.txtUserName becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,20 +28,44 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)onLogin:(id)sender {
+- (IBAction)onLogin:(id)sender
+{
+    NSString *username = self.txtUserName.text;
+    NSString *password = self.txtPassword.text;
+    
+    if ([username isEqualToString:@""] || [password isEqualToString:@""]) {
+        [self showInvalidUsernamePasswordAlert];
+        return;
+    }
     
     __weak SignInViewController *weakself = self;
-    [[MojioClient client] loginUserWithUsername:self.txtUserName.text withPassword:self.txtPassword.text withCompletionBlock:^(id response) {
+    [[MojioClient client] loginUserWithUsername:username withPassword:password withCompletionBlock:^(id response) {
         //successfully logged in, dismiss and return to home screen
         [weakself dismissViewControllerAnimated:YES completion:nil];
     } failure:^{
         //
+        [self showInvalidUsernamePasswordAlert];
     }];
 }
 
 - (IBAction)onCancel:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+-(void)showInvalidUsernamePasswordAlert
+{
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Warning" message:@"Incorrect username/password" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        //
+    }];
+    
+    [alertController addAction:okAction];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+}
+
 
 #pragma mark - Navigation
 
