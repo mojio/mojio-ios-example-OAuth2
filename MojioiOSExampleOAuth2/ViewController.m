@@ -35,18 +35,19 @@
     [self.loginButton setTitle:loggedInStatusText forState:UIControlStateNormal];
 }
 
--(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
-{
-    if([identifier isEqualToString:@"showLoginScreen"] && [[MojioClient client] isUserLoggedIn])
-    {
-        __weak ViewController *weakself = self;
+- (IBAction)onLogin:(id)sender {
+    if ([[MojioClient client] isUserLoggedIn]) {
         [[MojioClient client] logoutWithCompletionBlock:^{
             //logged out successfully
-            [weakself updateLoginButton];
+            [self updateLoginButton];
         }];
-        return NO;
     }
-    return YES;
+    else {
+        [[MojioClient client] loginWithCompletionBlock:^{
+            //
+            [self updateLoginButton];
+        }];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

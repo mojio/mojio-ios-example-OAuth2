@@ -28,7 +28,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="pTZ-zO-Q98" kind="show" identifier="showLoginScreen" id="Rfw-MH-bTE"/>
+                                    <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="21I-se-5zz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,79 +45,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-        </scene>
-        <!--Login-->
-        <scene sceneID="RHU-Mh-8Ms">
-            <objects>
-                <viewController id="zv6-X7-OQ1" customClass="SignInViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Lz-ge-j5u"/>
-                        <viewControllerLayoutGuide type="bottom" id="asY-ys-y7t"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kHG-2X-ZwH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIh-OP-rSf">
-                                <rect key="frame" x="28" y="99" width="330" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJy-zn-W2c">
-                                <rect key="frame" x="28" y="164" width="330" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czw-7o-qej">
-                                <rect key="frame" x="28" y="229" width="330" height="45"/>
-                                <color key="backgroundColor" red="0.39602615267458485" green="0.72069805905988815" blue="0.83526672979797978" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onLogin:" destination="zv6-X7-OQ1" eventType="touchUpInside" id="Llj-Pw-Sxy"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Login" id="R1N-jR-N3G">
-                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="l8g-Vg-fiM">
-                            <color key="tintColor" red="0.36089379142904598" green="0.62745403556645041" blue="0.70265151515151514" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <action selector="onCancel:" destination="zv6-X7-OQ1" id="Xw4-DT-GHQ"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="txtPassword" destination="SJy-zn-W2c" id="K5f-g7-eL7"/>
-                        <outlet property="txtUserName" destination="eIh-OP-rSf" id="44X-0Z-fcd"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="43W-a7-PJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1436.5" y="448.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Kvw-vQ-aeT">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pTZ-zO-Q98" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yh8-gZ-hBS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="zv6-X7-OQ1" kind="relationship" relationship="rootViewController" id="b2o-Yn-n36"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FF5-IR-Iu1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="902.5" y="448.5"/>
         </scene>
     </scenes>
 </document>

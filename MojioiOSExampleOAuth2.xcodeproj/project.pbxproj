@@ -99,7 +99,6 @@
 		B2D7972E1B434E3E008BF430 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D7972D1B434E3E008BF430 /* CFNetwork.framework */; };
 		B2D797301B434E46008BF430 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D7972F1B434E46008BF430 /* Security.framework */; };
 		B2D797321B434E4C008BF430 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D797311B434E4C008BF430 /* libicucore.dylib */; };
-		B2D797371B4353A0008BF430 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D797361B4353A0008BF430 /* SignInViewController.m */; };
 		D2C1C4CF0C87F54500BDB1DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C996AE6035B9D69C1BB102EF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -307,8 +306,6 @@
 		B2D7972D1B434E3E008BF430 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B2D7972F1B434E46008BF430 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B2D797311B434E4C008BF430 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		B2D797351B4353A0008BF430 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
-		B2D797361B4353A0008BF430 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		C996AE6035B9D69C1BB102EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0757DEBFF3E38B5D5C8D06 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -386,8 +383,6 @@
 				B2D796001B434D25008BF430 /* AppDelegate.m */,
 				B2D796021B434D25008BF430 /* ViewController.h */,
 				B2D796031B434D25008BF430 /* ViewController.m */,
-				B2D797351B4353A0008BF430 /* SignInViewController.h */,
-				B2D797361B4353A0008BF430 /* SignInViewController.m */,
 				B2D796051B434D25008BF430 /* Main.storyboard */,
 				B2D796081B434D25008BF430 /* Images.xcassets */,
 				B2D7960A1B434D25008BF430 /* LaunchScreen.xib */,
@@ -838,7 +833,6 @@
 				B2D797041B434E24008BF430 /* ObservableAttribute.m in Sources */,
 				B2D796F91B434E24008BF430 /* AccelerometerObserver.m in Sources */,
 				B2D796E61B434E24008BF430 /* ImageSize.m in Sources */,
-				B2D797371B4353A0008BF430 /* SignInViewController.m in Sources */,
 				B2D7970D1B434E24008BF430 /* SmoothObserverBase.m in Sources */,
 				B2D796F81B434E24008BF430 /* AccelerationObserver.m in Sources */,
 				B2D797111B434E24008BF430 /* SRHubConnection.m in Sources */,

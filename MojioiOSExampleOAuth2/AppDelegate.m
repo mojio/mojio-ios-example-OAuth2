@@ -20,7 +20,7 @@
 
     // initialize MojioClient with app id and secretkey
     MojioClient *mojioClient = [MojioClient client];
-    [mojioClient initWithAppId:@"cd804855-6d5c-4c4c-a308-d71e0a32417b" andSecretKey:@"9ae98c27-b4c1-4add-9de0-b78bc6ff1d48" andRedirectUrlScheme:@"mojioplayground://"]; //sandbox key
+    [mojioClient initWithAppId:@"cd804855-6d5c-4c4c-a308-d71e0a32417b" andSecretKey:@"9ae98c27-b4c1-4add-9de0-b78bc6ff1d48" andRedirectUrlScheme:@"mojioiosexampleoauth2://"]; //sandbox key
     
     return YES;
 }
@@ -38,6 +38,12 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
+
+-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    [[MojioClient client] handleOpenURL:url];
+    return YES;
+}
+
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
