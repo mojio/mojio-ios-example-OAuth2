@@ -9,8 +9,8 @@
 #import "AppDelegate.h"
 #import "MojioClient.h"
 
-NSString *const MOJIO_APP_ID = @"cd804855-6d5c-4c4c-a308-d71e0a32417b";
-NSString *const REDIRECT_URL = @"mojioiosexampleoauth2://";
+NSString *const MOJIO_APP_ID = @"<MOJIO_APP_ID>";
+NSString *const REDIRECT_URL = @"<REDIRECT_URL>://";
 
 @interface AppDelegate ()
 
