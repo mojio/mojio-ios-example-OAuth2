@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "MojioClient.h"
 
+NSString *const MOJIO_APP_ID = @"cd804855-6d5c-4c4c-a308-d71e0a32417b";
+NSString *const REDIRECT_URL = @"mojioiosexampleoauth2://";
+
 @interface AppDelegate ()
 
 @end
@@ -20,7 +23,7 @@
 
     // initialize MojioClient with app id and secretkey
     MojioClient *mojioClient = [MojioClient client];
-    [mojioClient initWithAppId:@"cd804855-6d5c-4c4c-a308-d71e0a32417b" andSecretKey:@"9ae98c27-b4c1-4add-9de0-b78bc6ff1d48" andRedirectUrlScheme:@"mojioiosexampleoauth2://"]; //sandbox key
+    [mojioClient initWithAppId:MOJIO_APP_ID andSecretKey:nil andRedirectUrlScheme:REDIRECT_URL]; //sandbox key
     
     return YES;
 }
