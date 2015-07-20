@@ -19,10 +19,14 @@ If you wish to download the full SDK source, please see [Visit our GitHub repo](
 ###How OAuth2 is done in this application ###
 1. Your application need to include MojioClient.h where you need access Mojio SDK
 
-2. In AppDelegate.m, add below code in "- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions" to initialize Mojio iOS SDK.
+2. In AppDelegate.m, add below code in "- 
+3. ```
+4. (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions" to initialize Mojio iOS SDK.
+5. 
 
     MojioClient *mojioClient = [MojioClient client];
     [mojioClient initWithAppId:MOJIO_APP_ID andSecretKey:nil andRedirectUrlScheme:REDIRECT_URL];
+```
 
 3. In AppDelegate.m add below code in "-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url", this is to handle post-OAuth2 authentication callback.
 
